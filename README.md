@@ -1,0 +1,2 @@
+# websocket-sharp-example
+This is a decent starting setup to use the websocket-sharp library in an application which is primarily built for websocket connections. Built in c# .NET 5.0. Uses a WSServer class to manage the WebSocketServer library with a built-in message dispatcher using ConcurrentQueue. Uses a WSClient middleware class with its own per client ConcurrentQueue message buffer for sending messages. Client.html is used to connect to the running application once started.
